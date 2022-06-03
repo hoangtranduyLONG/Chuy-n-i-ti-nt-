@@ -22,6 +22,9 @@
     dic.put("book","cuốn vở");
     dic.put("sorry","xin lỗi");
     dic.put("one","một");
+    dic.put("house","ngôi nhà");
+    dic.put("bird","chim");
+    dic.put("generation","thế hệ");
     String search = request.getParameter("search");
     String result =dic.get(search);
     PrintWriter writer = response.getWriter();
